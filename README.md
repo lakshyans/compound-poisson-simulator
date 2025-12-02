@@ -1,2 +1,6 @@
 # compound-poisson-simulator
 An interactive Shiny app that simulates the Compound Poisson distribution. Users can adjust parameters, generate simulations, and visualize outcomes through dynamic plots. Built to support learning in probability, stochastic modelling, and statistical computing.
+This application models a Compound Poisson process where event arrivals follow a Poisson distribution and jump sizes follow an Exponential distribution. It provides interactive controls for the arrival rate (λ) and jump size rate (θ), allowing users to explore how these parameters influence the behaviour of the process.
+The dashboard includes sample path simulations, distribution visualizations for different time horizons, and dynamic histograms with Normal approximation overlays. Users can observe key probabilistic concepts such as increasing variance, jump accumulation, and the convergence of the distribution toward normality as time grows.
+In addition to the app, the project includes the mathematical formulation of the model, simulation logic, and code structure, making it useful for anyone studying stochastic processes, actuarial modelling, or applied probability.
+The tool is designed to help bridge theory and practice by offering an accessible, visual way to understand random jump processes and their sensitivity to parameter changes.
